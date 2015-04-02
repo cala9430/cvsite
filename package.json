@@ -1,0 +1,25 @@
+{
+  "name": "cvsite",
+  "version": "1.0.0",
+  "description": "Tutorial site for showing some node and js projects",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cala9430/cvsite.git"
+  },
+  "keywords": [
+    "cv",
+    "js",
+    "node",
+    "tutorial"
+  ],
+  "author": "cala9430",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cala9430/cvsite/issues"
+  },
+  "homepage": "https://github.com/cala9430/cvsite"
+}
