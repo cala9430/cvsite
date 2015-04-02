@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/cala9430/cvsite/issues"
   },
-  "homepage": "https://github.com/cala9430/cvsite"
+  "homepage": "https://github.com/cala9430/cvsite",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
