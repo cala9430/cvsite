@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/cala9430/cvsite",
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "jade": "^1.9.2"
   }
 }
