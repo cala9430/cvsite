@@ -2,61 +2,49 @@ doctype html
 html
 	head
 		meta(charset='UTF-8')
-		link(href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css')
+		link(href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css')
 		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
 		link(rel="stylesheet" href="./public/css/style.css" type='text/css')
 		script(src="//code.jquery.com/jquery-1.11.2.min.js")
 		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js")
+		script(src="./public/js/modernizr.custom.js")
 		title!= title
 body
-nav.navbar.navbar-default
-	div.container-fluid
-		//Brand and toggle get grouped for better mobile display
-		div.navbar-header
-			button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
-				span.sr-only Toggle navigation
-				span.icon-bar
-				span.icon-bar
-				span.icon-bar
-			a.navbar-brand(href="#") Brand
-		//Collect the nav links, forms, and other content for toggling
-		div#bs-example-navbar-collapse-1.collapse.navbar-collapse
-			ul.nav.navbar-nav
-				li.active 
-					a(href="#") Link 
-						span.sr-only (current)
-				li
-					a(href="#") Link
-				li.dropdown
-					a.dropdown-toggle(href="#" data-toggle="dropdown" role="button" aria-expanded="false") Dropdown
-							span.caret
-					ul.dropdown-menu(role="menu")
-						li
-							a(href="#") Action
-						li
-							a(href="#") Another action
-						li
-							a(href="#") Something else here
-						li.divider
-						li
-							a(href="#") Separated link
-						li.divider
-						li
-							a(href="#") One more separated link
-			ul.nav.navbar-nav.navbar-right
-				li
-					a(href="#") Link
-				li.dropdown
-					a.dropdown-toggle(href="#" data-toggle="dropdown" role="button" aria-expanded="false") Dropdown 
-						span.caret
-					ul.dropdown-menu(role="menu")
-						li
-							a(href="#") Action
-						li
-							a(href="#") Another action
-						li
-							a(href="#") Something else here
-						li.divider
-						li
-							a(href="#") Separated link
-h1!= message
+	nav#bt-menu.bt-menu
+		a.bt-menu-trigger(href="#")
+			span Menu
+		ul
+			li
+				a(href="#") About us
+			li
+				a(href="#") Work
+			li
+				a(href="#") Clients
+			li
+				a(href="#") Blog
+			li
+				a(href="#") Contact
+		ul
+			li
+				a.bt-icon.icon-twitter(href="http://www.twitter.com/codrops") Twitter
+			li
+				a.bt-icon.icon-gplus(href="https://plus.google.com/101095823814290637419") Google+
+			li
+				a.bt-icon.icon-facebook(href="http://www.facebook.com/pages/Codrops/159107397912") Facebook
+			li
+				a.bt-icon.icon-github(href="https://github.com/codrops") icon-github
+	section#home
+		div.container
+			div.col-md-12
+				div.logo
+					img.img-responsive(src="public/img/dc-logo.jpg" alt="logo")
+				div.info
+					h2 DANIEL CALABUIG
+					h3 DEVELOPER
+		
+	section#about
+		div.container
+		
+		
+script(src="./public/js/classie.js")
+script(src="./public/js/borderMenu.js")
